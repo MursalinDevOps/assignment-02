@@ -65,7 +65,8 @@ nav {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-.ham-menu{
+
+.ham-menu {
     display: none;
     font-size: 18px;
     color: rgb(255, 255, 255);
@@ -197,6 +198,101 @@ header {
     background: rgb(230, 83, 60);
 }
 
+/* HABITS SECTION STYLES */
+
+.habits-content .section-title {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.section-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.card {
+    width: 231px;
+    height: 274px;
+    text-align: center;
+}
+
+.card img {
+    border-radius: 50%;
+}
+
+.card h5 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* RESPONSIVE */
 @media screen and (max-width:576px) {
     .project-container {
@@ -206,15 +302,16 @@ header {
 
     header {
         flex-direction: column;
-        border: 3px solid green;
     }
 
     nav>.nav-items {
         display: none;
     }
-    .ham-menu{
+
+    .ham-menu {
         display: block;
     }
+
     .header-title {
         color: rgb(255, 255, 255);
         font-size: 38px;
@@ -228,8 +325,6 @@ header {
     }
 
     .btn-primary {
-        /* width: 224px;
-        height: 54px; */
         padding: 16px 35px;
         font-size: 16px;
         display: flex;
@@ -263,5 +358,17 @@ header {
         height: 74.09px;
         left: 214.2px;
         top: 576.6px;
+    }
+
+    /* HABITS SECTION */
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .card {
+        width: 231px;
+        height: 274px
     }
 }
