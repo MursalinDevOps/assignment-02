@@ -65,6 +65,11 @@ nav {
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+.ham-menu{
+    display: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
 
 /* HEADER STYLES */
 header {
@@ -207,15 +212,56 @@ header {
     nav>.nav-items {
         display: none;
     }
-
+    .ham-menu{
+        display: block;
+    }
     .header-title {
         color: rgb(255, 255, 255);
         font-size: 38px;
         font-weight: 900;
     }
 
+    .header-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .btn-primary {
-        width: 169px;
-        height: 54px;
+        /* width: 224px;
+        height: 54px; */
+        padding: 16px 35px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+    }
+
+    .bg-outline {
+        background: transparent;
+        border: 1px solid white;
+    }
+
+    .header-left {
+        width: 352px;
+        height: 335px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    #box-one {
+        position: absolute;
+        width: 155.74px;
+        height: 72.58px;
+        left: 32px;
+        top: 800.38px;
+    }
+
+    #box-two {
+        position: absolute;
+        width: 145.91px;
+        height: 74.09px;
+        left: 214.2px;
+        top: 576.6px;
     }
 }
