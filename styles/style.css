@@ -300,44 +300,65 @@ header {
     height: auto;
     border-radius: 18px;
 }
+.btn-full-width {
+    width: 224px;
+    height: 54px;
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-right: 14px;
+    background: rgb(230, 83, 60);
+}
 
+/* MEET OUR TEAM  */
 
+.meet-container {
+    margin: 88px 0;
+}
 
+.meet-contents {
+    text-align: center;
+}
 
+.meet-contents h2 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
 
+.meet-contents p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    margin-bottom: 3.62rem;
+}
 
+.grid-container {
+    display: grid;
+    padding: 1.25rem;
+    row-gap: 20px;
+    column-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+}
 
+.grid-container div {
+    width: 326.67px;
+    height: 272px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.grid-container>div>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
 
 
 
@@ -351,7 +372,7 @@ header {
 /* RESPONSIVE */
 @media screen and (max-width:576px) {
     .project-container {
-        max-width: 90%;
+        max-width: 95%;
         margin: 0 auto;
     }
 
@@ -437,10 +458,10 @@ header {
         font-size: 32px;
     }
 
-    #btn-full-width {
+    .btn-full-width {
         width: 100%;
-        display: flex;
-        justify-content: center;
+        height: 3.5rem;
+        margin: 16px 5px 16px 28px;
     }
 
     .extra-section-contents {
@@ -457,5 +478,23 @@ header {
         width: 80%;
         height: auto;
         margin: 0 auto;
+    }
+
+    /* MEET OUR TEAM */
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0.5rem;
+    }
+
+    .grid-container div {
+        width: 310px;
+        height: 270px;
+    }
+
+    .grid-container>div>img {
+        width: 95%;
+        height: 100%;
+        margin: 0 auto;
+        border-radius: 18px;
     }
 }
