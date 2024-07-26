@@ -300,6 +300,7 @@ header {
     height: auto;
     border-radius: 18px;
 }
+
 .btn-full-width {
     width: 224px;
     height: 54px;
@@ -361,10 +362,88 @@ header {
 }
 
 
+/* FOOTER  */
+footer {
+    width: auto;
+    margin: 0 auto;
+    height: auto;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+    /* width: 1428.750px; */
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 66px;
+    margin-bottom: 70px;
+}
+
+.footer-title {
+    width: 50%;
+}
+
+.footer-title h1 {
+    color: rgb(230, 83, 60);
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer-title p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.get-started-1 h3,
+.get-started-2 h3 {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.get-started-1 a,
+.get-started-2 a {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.get-started-1 p,
+.get-started-2 p {
+    margin-top: 20px;
+}
+
+.get-started-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+.get-started-container a {
+    text-decoration: none;
+}
+
+hr {
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copyright {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
 
 
-
-
+/* FOOTER  */
 
 
 
@@ -497,4 +576,5 @@ header {
         margin: 0 auto;
         border-radius: 18px;
     }
+    /* FOOTER */
 }
