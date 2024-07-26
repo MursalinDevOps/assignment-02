@@ -392,6 +392,7 @@ footer {
 }
 
 .footer-title p {
+    width: 443px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
     font-weight: 400;
@@ -444,6 +445,18 @@ hr {
 
 
 /* FOOTER  */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -576,5 +589,22 @@ hr {
         margin: 0 auto;
         border-radius: 18px;
     }
+
     /* FOOTER */
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .footer-title p {
+        width: 317px;
+    }
+
+    .get-started-container {
+        display: block;
+    }
+
+    .get-started-1 ,
+    .get-started-2 {
+        margin-top: 30px;
+    }
 }
