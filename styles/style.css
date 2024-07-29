@@ -13,8 +13,7 @@
 }
 
 body {
-  background: linear-gradient(180deg, rgb(27, 27, 27), rgb(0, 0, 0) 100%);
-  /* background-color: rgb(17, 17, 17); */
+  background-color: rgb(17, 17, 17);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
