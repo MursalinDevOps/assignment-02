@@ -478,7 +478,24 @@ form input {
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.1);
 }
-
+.trainer-container{
+  position: relative;
+}
+.trainer{
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+.trainer h6{
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.trainer p{
+  color: white;
+  font-size: 18px;
+  opacity: 0.5;
+}
 .grid-container div {
   width: 326.67px;
   height: 272px;
