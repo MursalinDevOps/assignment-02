@@ -444,6 +444,51 @@ form input {
 
 /* BMI Section End */
 
+/* SUBSCRIPTION PLAN SECTION STYLE STARTS HERE */
+.plans-title{
+  text-align: center;
+  font-size: 3rem;
+  color:#fff;
+}
+.plans-section-container{
+  margin: 88px 0;
+}
+.plans-cards{
+  margin-top: 3rem;
+  display: flex;
+  gap: 50px;
+}
+.plans-card{
+  border-radius: 18px;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 100px 50px;
+}
+.plans-card h3{
+  font-size: 1.5rem;
+  color: #fff;
+}
+.plans-card h1{
+  font-size: 3rem;
+  color: #fff;
+}
+.plans-card button{
+  margin: 20px 0;
+}
+.plans-card hr{
+  width: 100%;
+  margin: 20px;
+}
+.plans-card p, li{
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* SUBSCRIPTION PLAN SECTION STYLE STARTS HERE */
+
 /* MEET OUR TEAM  */
 
 .meet-container {
@@ -740,6 +785,14 @@ hr {
     gap: calc(100% - 98%);
   }
 
+  /* PLANS SECTION */
+  .plans-cards{
+    flex-direction: column;
+  }
+  .plans-card{
+    width: 100%;
+    align-items: start;
+  }
   /* MEET OUR TEAM */
   .grid-container {
     grid-template-columns: repeat(1, 1fr);
