@@ -200,7 +200,9 @@ header {
 }
 
 /* HABITS SECTION STYLES */
-
+.habits-section-container{
+  margin-top: 50px;
+}
 .habits-content .section-title {
   color: rgb(255, 255, 255);
   font-size: 48px;
